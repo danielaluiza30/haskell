@@ -10,4 +10,7 @@ import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
 getHomeR :: Handler Html
-getHomeR = undefined
+getHomeR = do
+    defaultLayout $ do
+        <h1>
+            Página
