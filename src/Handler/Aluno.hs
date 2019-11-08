@@ -8,8 +8,6 @@
 module Handler.Aluno where
 
 import Import
-import Text.Lucis 
-import Text.Julius 
 import Database.Persist.Postgresql
 
 -- renderDivs
