@@ -11,9 +11,9 @@ import Import
 import Database.Persist.Postgresql
 
 -- renderDivs
-formAluno :: Form Aluno
-formAluno = renderBootstrap $ Aluno 
-    <$> areq text
+--formAluno :: Form Aluno
+--formAluno = renderBootstrap $ Aluno 
+--    <$> areq text
     
 getAlunoR :: Handler Html 
 getAlunoR = undefined
