@@ -11,5 +11,4 @@ import Database.Persist.Postgresql
 getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
-        <h1>
-            Página
+        $(whameletFile "templates/homepage.hamlet")
